@@ -1,0 +1,138 @@
+2022-05-17 09:31:04.901  INFO 9016 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Starting HusseinYousefApplication using Java 11.0.6 on java-11 with PID 9016 (C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef\target\classes started by hussain.61 in C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef)
+2022-05-17 09:31:04.904  INFO 9016 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 09:31:05.598  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-17 09:31:05.672  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2022-05-17 09:31:06.150  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-17 09:31:06.158  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 09:31:06.158  INFO 9016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 09:31:06.290  INFO 9016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 09:31:06.291  INFO 9016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1347 ms
+2022-05-17 09:31:06.323  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 09:31:06.425  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 09:31:06.438  INFO 9016 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-05-17 09:31:06.577  INFO 9016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-17 09:31:06.619  INFO 9016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-17 09:31:06.746  INFO 9016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-17 09:31:06.854  INFO 9016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-17 09:31:07.506  INFO 9016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-17 09:31:07.514  INFO 9016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-17 09:31:07.871  WARN 9016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-17 09:31:08.186  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-17 09:31:08.200  INFO 9016 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Started HusseinYousefApplication in 3.697 seconds (JVM running for 4.471)
+2022-05-17 09:31:12.543  INFO 9016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 09:31:12.544  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 09:31:12.545  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 09:31:22.141  INFO 9016 --- [http-nio-8080-exec-5] M.c.e.H.Y.s.TransactionServiceImpl       : Transaction IdOptional[Maids.cc.example.Hussein.Yousef.models.Transaction@51b40db8]is updated
+2022-05-17 09:31:22.142  INFO 9016 --- [http-nio-8080-exec-5] M.c.e.H.Y.s.TransactionServiceImpl       :   updating   Transaction quantity to 2
+2022-05-17 09:31:22.142  INFO 9016 --- [http-nio-8080-exec-5] M.c.e.H.Y.s.TransactionServiceImpl       :   updating   Transaction product price 2
+2022-05-17 10:54:15.367  INFO 17960 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Starting HusseinYousefApplication using Java 11.0.6 on java-11 with PID 17960 (C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef\target\classes started by hussain.61 in C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef)
+2022-05-17 10:54:15.369  INFO 17960 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 10:54:16.090  INFO 17960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-17 10:54:16.166  INFO 17960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2022-05-17 10:54:16.662  INFO 17960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-17 10:54:16.671  INFO 17960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 10:54:16.672  INFO 17960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 10:54:16.820  INFO 17960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 10:54:16.821  INFO 17960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1402 ms
+2022-05-17 10:54:16.851  INFO 17960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 10:54:16.959  INFO 17960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 10:54:16.971  INFO 17960 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-05-17 10:54:17.106  INFO 17960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-17 10:54:17.156  INFO 17960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-17 10:54:17.281  INFO 17960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-17 10:54:17.374  INFO 17960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-17 10:54:18.008  INFO 17960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-17 10:54:18.016  INFO 17960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-17 10:54:18.369  WARN 17960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-17 10:54:18.680  INFO 17960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-17 10:54:18.694  INFO 17960 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Started HusseinYousefApplication in 3.728 seconds (JVM running for 4.544)
+2022-05-17 10:54:19.247  INFO 17960 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 10:54:19.248  INFO 17960 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 10:54:19.249  INFO 17960 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 10:55:22.380  INFO 17960 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x000x000x000x090x000x000x000x130x000x000x000x060x00t0x00e0x00s0x00t0x00d0x00b0x000x000x00#0x00j0x00d0x00b0x00c0x00:0x00h0x0020x00:0x00t0x00c0x00p0x00:0x00/0x00/0x00l0x00o0x00c0x00a0x00l0x00h0x00o0x00s0x00t0x00:0x0080x0000x0080x0000x00/0x00t0x00e0x00s0x00t0x00d0x00b0x000x000x000x020x00S0x00A0x000x000x00 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-05-17 11:08:58.729  INFO 18172 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Starting HusseinYousefApplication using Java 11.0.6 on java-11 with PID 18172 (C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef\target\classes started by hussain.61 in C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef)
+2022-05-17 11:08:58.732  INFO 18172 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 11:08:59.406  INFO 18172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-17 11:08:59.481  INFO 18172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2022-05-17 11:08:59.960  INFO 18172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-17 11:08:59.969  INFO 18172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 11:08:59.969  INFO 18172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 11:09:00.109  INFO 18172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 11:09:00.110  INFO 18172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1335 ms
+2022-05-17 11:09:00.151  INFO 18172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 11:09:00.261  INFO 18172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 11:09:00.275  INFO 18172 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-05-17 11:09:00.438  INFO 18172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-17 11:09:00.484  INFO 18172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-17 11:09:00.618  INFO 18172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-17 11:09:00.719  INFO 18172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-17 11:09:01.408  INFO 18172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-17 11:09:01.417  INFO 18172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-17 11:09:01.884  WARN 18172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-17 11:09:02.366  INFO 18172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-17 11:09:02.380  INFO 18172 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Started HusseinYousefApplication in 4.044 seconds (JVM running for 5.1)
+2022-05-17 11:09:08.442  INFO 18172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 11:09:08.443  INFO 18172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 11:09:08.445  INFO 18172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 11:11:29.146  INFO 19868 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Starting HusseinYousefApplication using Java 11.0.6 on java-11 with PID 19868 (C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef\target\classes started by hussain.61 in C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef)
+2022-05-17 11:11:29.149  INFO 19868 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 11:11:29.850  INFO 19868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-17 11:11:29.920  INFO 19868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2022-05-17 11:11:30.385  INFO 19868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-17 11:11:30.393  INFO 19868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 11:11:30.394  INFO 19868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 11:11:30.521  INFO 19868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 11:11:30.521  INFO 19868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
+2022-05-17 11:11:30.551  INFO 19868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 11:11:30.652  INFO 19868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 11:11:30.665  INFO 19868 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-05-17 11:11:30.803  INFO 19868 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-17 11:11:30.845  INFO 19868 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-17 11:11:30.971  INFO 19868 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-17 11:11:31.068  INFO 19868 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-17 11:11:31.734  INFO 19868 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-17 11:11:31.742  INFO 19868 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-17 11:11:32.100  WARN 19868 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-17 11:11:32.418  INFO 19868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-17 11:11:32.432  INFO 19868 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Started HusseinYousefApplication in 3.672 seconds (JVM running for 4.415)
+2022-05-17 11:11:34.785  INFO 19868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 11:11:34.786  INFO 19868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 11:11:34.787  INFO 19868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 11:12:32.477  INFO 14164 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Starting HusseinYousefApplication using Java 11.0.6 on java-11 with PID 14164 (C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef\target\classes started by hussain.61 in C:\Users\hussain.61\Desktop\Maids.cc\Hussein-Yousef)
+2022-05-17 11:12:32.480  INFO 14164 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 11:12:33.195  INFO 14164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-17 11:12:33.270  INFO 14164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2022-05-17 11:12:33.744  INFO 14164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-17 11:12:33.753  INFO 14164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 11:12:33.753  INFO 14164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 11:12:33.885  INFO 14164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 11:12:33.885  INFO 14164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2022-05-17 11:12:33.916  INFO 14164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 11:12:34.017  INFO 14164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 11:12:34.029  INFO 14164 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-05-17 11:12:34.171  INFO 14164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-17 11:12:34.216  INFO 14164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-17 11:12:34.352  INFO 14164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-17 11:12:34.454  INFO 14164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-17 11:12:35.139  INFO 14164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-17 11:12:35.148  INFO 14164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-17 11:12:35.494  WARN 14164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-17 11:12:35.810  INFO 14164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-17 11:12:35.824  INFO 14164 --- [main] M.c.e.H.Yousef.HusseinYousefApplication  : Started HusseinYousefApplication in 3.741 seconds (JVM running for 4.49)
+2022-05-17 11:12:37.473  INFO 14164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 11:12:37.474  INFO 14164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 11:12:37.475  INFO 14164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
